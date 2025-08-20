@@ -1,0 +1,13 @@
+/* Von Junzt's Dynamic Token Speed - Minimal Styles */
+
+/* Module settings styling */
+.vj-dts-settings {
+    margin: 10px 0;
+}
+
+/* Debug notification styling */
+.vj-dts-notification {
+    font-family: monospace;
+}
+
+/* Future UI elements can be styled here */

@@ -1,0 +1,50 @@
+{
+  "id": "dynamictokenspeed",
+  "title": "Von Junzt's Dynamic Token Speed",
+  "version": "1.0.0",
+  "description": "Dynamic token movement animation speed based on actor movement values for SWADE and D&D 5e (Foundry v13 only)",
+  "authors": [
+    {
+      "name": "Von Junzt",
+      "discord": "von_junzt"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      },
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ],
+    "requires": []
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "esmodules": ["main.js"],
+  "styles": ["style.css"],
+  "url": "https://github.com/Von-Junzt/dynamictokenspeed",
+  "manifest": "https://raw.githubusercontent.com/Von-Junzt/dynamictokenspeed/main/module.json",
+  "download": "https://github.com/Von-Junzt/dynamictokenspeed/archive/refs/heads/main.zip",
+  "license": "MIT",
+  "readme": "README.md"
+}

@@ -1,0 +1,26 @@
+{
+  "dynamictokenspeed": {
+    "Settings": {
+      "DebugMode": {
+        "Name": "Debug Mode",
+        "Hint": "Enable debug logging to the console for troubleshooting"
+      },
+      "EnableAnimation": {
+        "Name": "Enable Dynamic Speed Animation",
+        "Hint": "Use actor's movement speed to determine token animation speed"
+      },
+      "SpeedMultiplier": {
+        "Name": "Speed Multiplier",
+        "Hint": "Multiply the movement speed by this amount for animation speed"
+      },
+      "BaseAnimationSpeed": {
+        "Name": "Base Animation Speed",
+        "Hint": "Base spaces per second for normal movement (default: 6). Higher values make all animations faster."
+      }
+    },
+    "Notifications": {
+      "RequiresCompatibleSystem": "VJ DTS: This module requires a compatible game system (SWADE or D&D 5e)",
+      "SpeedUpdated": "{name} speed updated: {speed}"
+    }
+  }
+}
