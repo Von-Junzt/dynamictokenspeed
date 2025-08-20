@@ -20,7 +20,7 @@ Dynamic token movement animation speed based on actor movement values for Foundr
   - Not tested with Foundry v14+
 
 ### Supported Game Systems (one required)
-- **SWADE** (Savage Worlds Adventure Edition): Version 5.x
+- **SWADE**: Version 5.x
 - **D&D 5e**: Version 5.x
 
 ### Dependencies
@@ -93,5 +93,6 @@ MIT License - See LICENSE file for details
 
 Created by Von Junzt
 Part of the Von Junzt's module collection for Foundry VTT.
+
 
 
