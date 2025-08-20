@@ -2,8 +2,6 @@
 
 Dynamic token movement animation speed based on actor movement values for Foundry VTT v13.
 
-**⚠️ IMPORTANT: This module requires Foundry VTT v13 and is not compatible with earlier versions.**
-
 ## Features
 
 - **Multi-System Support**: Works with both SWADE v5.0.0+ and D&D 5e v5.0.0+ systems
@@ -67,48 +65,21 @@ Examples (with defaults: Base = 6, Multiplier = 1.2):
 
 ### Movement Types
 
-The module automatically detects the selected movement type (using Foundry v13's Token HUD) and uses the appropriate pace:
-- **Walk**: Uses ground pace
-- **Fly**: Uses fly pace (if available)
-- **Swim**: Uses swim pace (if available)
-- **Burrow**: Uses burrow pace (if available)
-- **Climb/Crawl**: Uses ground pace
-- **Blink**: Instant movement (no animation)
-
-If a specific movement pace isn't available, the module falls back to ground pace.
+The module automatically detects the selected movement type (using Foundry v13's Token HUD) and uses the appropriate pace. If a specific movement pace isn't available, the module falls back to ground pace.
 
 ## Technical Details
 
 ### Architecture
 - Modular hook-based system
 - Uses Foundry v13's native `animation.movementSpeed` API
-- Configuration-driven multi-system support
-- Clean ES6 module structure
 
-### Key Components
-- `main.js`: Module initialization and system detection
-- `scripts/hooks/movementSpeedHook.js`: Core animation speed modification
-- `scripts/utils/speedCalculation.js`: Movement speed calculations
-- `scripts/utils/systemConfigs.js`: System-specific configurations
-- `scripts/utils/constants.js`: Module-wide constants
-- `settings/settings.js`: Module settings registration
 ## Compatibility
-
 - **Foundry VTT**: v13 ONLY - Built specifically for v13's animation system
 - **Game Systems**: 
   - SWADE v5.0.0+ (v13 exclusive)
   - D&D 5e v5.0.0+ (v13 exclusive)
 - Works alongside other system modules
-- Compatible with combat automation modules
 - Does not interfere with measurement or game mechanics
-
-### Version Compatibility Table
-
-| Foundry VTT | SWADE System | D&D 5e System | Module Support |
-|-------------|--------------|---------------|----------------|
-| v13         | v5.0.0+      | v5.0.0+       | ✅ Full Support |
-| v12         | Any          | Any           | ❌ Not Compatible |
-| v14+        | Any          | Any           | ❓ Not Tested |
 
 ## Support
 
@@ -124,3 +95,4 @@ MIT License - See LICENSE file for details
 
 Created by Von Junzt
 Part of the Von Junzt's module collection for Foundry VTT.
+
